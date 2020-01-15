@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+			
+	</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="CSS\dropdown.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+	<style>
+		
+  
+  .dropdown-submenu  .dropdown-menu {
+	  top: 0;
+	  left: 100%;
+	  margin-left: -1px;
+	  -webkit-border-radius: 0 6px 6px 6px;
+	  -moz-border-radius: 0 6px 6px;
+	  border-radius: 0 6px 6px 6px;
+  }
+  
+  .dropdown-submenu:hover .dropdown-menu {
+	  display: block;
+  }
+  
+  .dropdown-submenu>a:after {
+	  display: block;
+	  content: " ";
+	  float: right;
+	  border-color: transparent;
+	  border-style: solid;
+	  border-width: 5px 0 5px 5px;
+	  border-left-color: #ccc;
+	  margin-right: -10px;
+  }
+  
+  .dropdown-submenu:hover>a:after {
+	  border-left-color: #fff;
+  }
+  
+  .dropdown-submenu.pull-left {
+	  float: none;
+  }
+  
+  .dropdown-submenu.pull-left>.dropdown-menu {
+	  left: -100%;
+	  margin-left: 10px;
+	  -webkit-border-radius: 6px 0 6px 6px;
+	  -moz-border-radius: 6px 0 6px 6px;
+	  border-radius: 6px 0 6px 6px;
+  }
+	  </style>
+
+
+
+</head>
+<body>
+	
+	
+	<div class="navbar " role="navigation">    <!-- navbar-fixed-top will keep the navbar little up -->
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- <a class="navbar-brand" href="#">NavBar</a> -->
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 1 <b class="caret"></b></a>  <!-- to open a dropdown menu on click -->
+										<!-- class="caret is for the drop symbol" -->
+						<ul class="dropdown-menu multi-level">
+							<li><li class="dropdown-submenu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>  <!-- to open a dropdown menu on click -->
+								<ul class="dropdown-menu" style="width: 400px!important; margin-top: 0px!important; min-height: 400px;">
+									<div class="row">
+										<img src="a.png" class="img-responsive" style="z-index: -1; position: absolute; margin-top: -25px; width: 430px!important; margin-left: 30px;">
+										<div class="col-lg-4" >
+											<ul style="list-style: none;">  <!-- style="list-style: none;"  ----- this is to renove the ugly dots -->
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												
+											</ul>
+										</div>
+										<div class="col-lg-4">
+											 <ul style="list-style: none;">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+																					
+											</ul>
+										</div>
+										<div class="col-lg-4">
+											 <ul style="list-style: none;">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+	
+												
+											</ul>
+										</div>
+										<div class="col-lg-12">
+											
+										</div>
+									</div>
+								</ul>
+							</li></li>
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Action</a></li>
+							<li><a href="#">Action</a></li>
+							
+							<li class="dropdown-submenu">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>  <!-- to open a dropdown menu on click -->
+								<ul class="dropdown-menu" style="width: 400px!important; margin-top: 0px!important; min-height: 400px;">
+									<div class="row">
+										<img src="a.png" class="img-responsive" style="z-index: -1; position: absolute; margin-top: -25px; width: 430px!important; margin-left: 30px;">
+										<div class="col-lg-4" >
+											<ul style="list-style: none;">  <!-- style="list-style: none;"  ----- this is to renove the ugly dots -->
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												
+											</ul>
+										</div>
+										<div class="col-lg-4">
+											 <ul style="list-style: none;">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+																					
+											</ul>
+										</div>
+										<div class="col-lg-4">
+											 <ul style="list-style: none;">
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+												<li><a href="#">Action</a></li>
+	
+												
+											</ul>
+										</div>
+										<div class="col-lg-12">
+											
+										</div>
+									</div>
+								</ul>
+							</li>
+						</ul>
+					</li>
+	
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div>
+	
+	</div>
+	  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
+	
+  	
+</body>
+</html>

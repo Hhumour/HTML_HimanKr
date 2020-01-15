@@ -1,0 +1,28 @@
+*{
+    font-family: cursive;
+    color: whitesmoke;
+}
+.navbar a{
+    color: whitesmoke;
+}
+
+.img-span{
+    
+     margin-top: 50px;
+}
+.nav-bar{
+    background-color:rgba(0, 0, 0, 0.945);
+}
+.content-start{
+    background: url(../images/bgimg.jfif);
+}
+.page-content{
+    display: inline-block;
+     width: 500px;
+}
+.list-s{
+    text-align: center;
+}
+.list-items{
+    padding-top: 3rem;
+}

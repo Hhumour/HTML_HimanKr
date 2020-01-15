@@ -1,0 +1,21 @@
+java vs js
+type checking
+where to use script tag
+how to work in console log
+let, var, const etc.(reinitialisation of variables)
+DOM manipulaition 
+hoisting
+abstract euality(==), strict equality(===)
+use strict, linter
+parsing
+event loop
+annotations in js
+window is a global object in js, global scope
+this in js
+preventDefault to stop from refreshing
+
+
+
+NOTE: use console.table, .value is only for form elements and .innerHTML is for other elements as well
+TASK: take input value from input and add it to unordered list
+EVALUATION: html, css js on Monday

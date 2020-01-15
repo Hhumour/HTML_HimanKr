@@ -1,0 +1,40 @@
+unit testing
+integration testing(data flow testing)
+system testing
+specificity(!important) : Specificity is the measure by which the browser decides how to prioritize the CSS properties.
+Example: Which one to select out of id, class, attribute etc.
+Always lead to use specificity before even considering !important.
+Use !important to override foreign css eg. Boostrap.(!important breaks natural cascading)
+Siblings(~, +: (for adjacent siblings), >.
+pseudo class, pseudo element
+Combinators(~)(sibling, child) 
+absolute and relative units in css e.g. px, em, rem, vw, vh(1 rem=16 px), difference between % and rem. Do they have negative values.
+negative margin
+infinite scrolling
+position
+meta tag
+no script
+best practices(clarity, scalibility, etc.)
+border box in css
+vertical align, position, static content, overflow, z-index
+workers
+how to use fonts
+async
+defer
+danish,serrif,why UTF-8, 
+ekma script
+margin auto
+scss
+flexbox properties demonstrartion
+<----SOLID | DRY | KISS
+
+class vs id(bad practice because it fails in integration testing)
+BOOK: Author (Rexblack)
+source tree(GUI for git)
+can i use.com
+
+
+Task Profile
+Task: The dropdown should have checkbox. The dropdown shouldn't close after checking a checkbox. 
+There should be dropdown inside dropdown. No need of select all  and search option.
+profile page in the middle
